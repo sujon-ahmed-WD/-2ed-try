@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,500&display=swap');
+/* Common  Shared styles */
+body{
+    /* sov text golo gogoole thkay delete kora hoyca  */
+    font-family: 'Open Sans', sans-serif;
+}
+.section-title{
+    color:   #181818;
+    text-align: center;
+    font-size: 35px;  
+    font-weight: 700;
+   
+
+}
+.boutton{
+    /* hire me batton tkaka orang color and radius kora hoyca */
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+ 
+
+}
+/* nav related Styles */
+/* mray thkay anchor golo ka alda kora jono  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.marycolor{
+    /* ata holo step 1 mary colo kaj korsa */
+    color: #181818;  /
+    font-size: 45px;
+    font-weight: 800px; 
+}
+.rcolor{
+    /* Mary color modda  step 2 ja r color chloo tar color korsa  */
+    color: #FD6E0A;
+}
+nav > ul{
+    /* step 3 mary colo tar pora jaa chloe odr ka alda kora kora hoyca */
+    display: flex;
+    align-items: center;
+}
+nav li{
+    /*  step4list ja fota golo chloo ta bad doa hoayca and fak fak kora jono margin use kora hoyca */
+    list-style: none;
+    margin-right:50px ;
+}
+nav a{
+    /* step5  anchor tag ja ja taext golo chloo tar text color change korsa  */
+    text-decoration: none;
+    color: #474747;
+}
+/* header betora kaj korvo akhon  */
+.header{
+    background-color:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+/* sobi pesona jens agula */
+/* sobier jono */
+.banner{
+    padding: 30px 30px 00px 150px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.banner-welcome{
+    font-size: 45px;
+    color:#181818;
+    margin-bottom: 0;
+ 
+}
+.banner- title{
+    font-size:85px ;
+    font-weight: 700;
+    margin-bottom:20px ;
+
+}
+.banner-para{
+    max-width: 500px;
+    font-size: 18px;
+    font-style: normal;
+
+}
+/* main section styles */
+
+/* about section styles */
+.about{
+    padding: 130px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-para{
+color:#757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+ 
+
+}
+
+
+ 
